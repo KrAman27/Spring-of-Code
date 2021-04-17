@@ -36,7 +36,7 @@ int main(){
     s.push(15);
     s.push(2);
 
-    print(s);
+    print(s); 
 
     cout<<"The largest data is : "<<largest(s)<<endl;
 }
