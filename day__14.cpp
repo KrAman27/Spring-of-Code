@@ -29,7 +29,7 @@ void buildMaxHeap(int arr[], int n)
 
 void mergeHeaps(int merged[], int a[], int b[],
                 int n, int m)
-{
+{ 
     for (int i = 0; i < n; i++)
         merged[i] = a[i];
     for (int i = 0; i < m; i++)
